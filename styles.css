@@ -306,23 +306,18 @@ body {
   align-items: center;
 }
 
-.avatar-box {
-  background: var(--primary-light);
-  border: 2px dashed #7dd3fc;
-  border-radius: var(--radius);
-  padding: 60px 20px;
-  text-align: center;
+.about-image-wrapper {
+  display: flex;
+  justify-content: center;
 }
 
-.avatar-box span {
-  font-size: 5rem;
-  display: block;
-  margin-bottom: 12px;
-}
-
-.avatar-box p {
-  font-weight: 600;
-  color: var(--primary-dark);
+.doctor-photo {
+  width: 100%;
+  max-width: 380px;
+  border-radius: 18px;
+  box-shadow: 0 16px 32px -8px rgba(15, 23, 42, 0.16);
+  border: 4px solid var(--bg-white);
+  object-fit: cover;
 }
 
 .about-content h2 {
